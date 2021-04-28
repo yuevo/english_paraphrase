@@ -6,7 +6,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - ./api:/EnglishParaphrase/api
+      - ./api:/english_paraphrase/api
     depends_on:
       - db
     tty: true
